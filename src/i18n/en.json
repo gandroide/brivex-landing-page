@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "ecosystem": "Ecosystem",
+    "technology": "Technology",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Building the Future of B2B with Artificial Intelligence.",
+    "subtitle": "Brivex is a technology innovation lab. We develop Edge AI hardware, SaaS infrastructures, and intelligent ecosystems for critical industries.",
+    "cta_primary": "Explore Ecosystem",
+    "cta_secondary": "Contact Us"
+  },
+  "ecosystem": {
+    "badge": "Portfolio",
+    "title": "Our Ecosystem",
+    "subtitle": "A constellation of ventures designed to transform critical industries through AI, IoT, and scalable SaaS architectures.",
+    "bioalert": {
+      "name": "Bio-Alert",
+      "description": "Acoustic IoT monitoring with Edge AI for the AgTech sector. Animal biometrics and behavioral prediction through neural sound processing."
+    },
+    "axisops": {
+      "name": "AXIS.ops",
+      "description": "Multi-tenant SaaS architecture for the comprehensive management of academies, studios, and learning centers. Operational intelligence at scale."
+    },
+    "aleris": {
+      "name": "Aleris",
+      "description": "Next-generation technology solution in stealth development. Pushing boundaries in automated data processing and predictive analytics."
+    },
+    "brivexsaas": {
+      "name": "Brivex SaaS",
+      "description": "Scalable software infrastructure and real-time databases. The backbone that powers the entire Brivex ecosystem."
+    }
+  },
+  "techDna": {
+    "badge": "Core Stack",
+    "title": "The Technological DNA",
+    "subtitle": "We build with cutting-edge tools and frameworks to deliver solutions that perform at the edge of what's possible.",
+    "items": [
+      "Machine Learning Models",
+      "Neural Acoustic Processing",
+      "Serverless Architectures",
+      "Supabase & Real-Time DBs",
+      "Industrial Microcontrollers"
+    ]
+  },
+  "footer": {
+    "form_title": "Let's talk innovation",
+    "form_subtitle": "Have an idea or challenge? We'd love to hear about it.",
+    "name_placeholder": "Your name",
+    "email_placeholder": "your@email.com",
+    "message_placeholder": "Tell us about your project...",
+    "send_button": "Send Message",
+    "links_title": "Ecosystem",
+    "connect_title": "Connect",
+    "rights": "All rights reserved.",
+    "built_with": "Built with AI & passion."
+  }
+}

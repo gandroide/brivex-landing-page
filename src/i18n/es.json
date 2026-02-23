@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "ecosystem": "Ecosistema",
+    "technology": "Tecnología",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Construyendo el futuro del B2B con Inteligencia Artificial.",
+    "subtitle": "Brivex es un laboratorio de innovación tecnológica. Desarrollamos hardware Edge AI, infraestructuras SaaS y ecosistemas inteligentes para industrias críticas.",
+    "cta_primary": "Explorar Ecosistema",
+    "cta_secondary": "Contactar"
+  },
+  "ecosystem": {
+    "badge": "Portafolio",
+    "title": "Nuestro Ecosistema",
+    "subtitle": "Una constelación de ventures diseñados para transformar industrias críticas a través de IA, IoT y arquitecturas SaaS escalables.",
+    "bioalert": {
+      "name": "Bio-Alert",
+      "description": "Monitoreo acústico IoT con Edge AI para el sector AgTech. Biometría animal y predicción conductual mediante procesamiento neural de sonido."
+    },
+    "axisops": {
+      "name": "AXIS.ops",
+      "description": "Arquitectura SaaS Multi-tenant para la gestión integral de academias, estudios y centros de aprendizaje. Inteligencia operativa a escala."
+    },
+    "aleris": {
+      "name": "Aleris",
+      "description": "Solución tecnológica de próxima generación en desarrollo stealth. Empujando fronteras en procesamiento automatizado de datos y analítica predictiva."
+    },
+    "brivexsaas": {
+      "name": "Brivex SaaS",
+      "description": "Infraestructura de software escalable y bases de datos en tiempo real. La columna vertebral que impulsa todo el ecosistema Brivex."
+    }
+  },
+  "techDna": {
+    "badge": "Stack Principal",
+    "title": "El ADN Tecnológico",
+    "subtitle": "Construimos con herramientas y frameworks de vanguardia para entregar soluciones que operan en el límite de lo posible.",
+    "items": [
+      "Modelos de Machine Learning",
+      "Procesamiento Acústico Neuronal",
+      "Arquitecturas Serverless",
+      "Supabase & BDs en Tiempo Real",
+      "Microcontroladores Industriales"
+    ]
+  },
+  "footer": {
+    "form_title": "Hablemos de innovación",
+    "form_subtitle": "¿Tienes una idea o un desafío? Nos encantaría escucharte.",
+    "name_placeholder": "Tu nombre",
+    "email_placeholder": "tu@email.com",
+    "message_placeholder": "Cuéntanos sobre tu proyecto...",
+    "send_button": "Enviar Mensaje",
+    "links_title": "Ecosistema",
+    "connect_title": "Conectar",
+    "rights": "Todos los derechos reservados.",
+    "built_with": "Hecho con IA y pasión."
+  }
+}
