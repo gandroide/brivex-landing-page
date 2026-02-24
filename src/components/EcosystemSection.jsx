@@ -4,6 +4,7 @@ import { useTranslation } from '../i18n/LanguageContext';
 const CARDS = [
   {
     key: 'bioalert',
+    url: 'https://bio-acustic-farm-landing-page.ajontiveros82.workers.dev/',
     iconClass: 'bioalert',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -84,6 +85,7 @@ export default function EcosystemSection() {
               key={card.key}
               className="glass-card"
               custom={i}
+              onClick={() => window.open(card.url, '_blank')}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, margin: '-60px' }}
