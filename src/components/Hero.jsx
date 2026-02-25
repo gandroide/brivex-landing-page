@@ -1,5 +1,4 @@
 import { useRef, useEffect } from 'react';
-import { motion } from 'framer-motion';
 import { useTranslation } from '../i18n/LanguageContext';
 
 /* ── Neural‑mesh canvas animation ── */
@@ -80,12 +79,16 @@ function useNeuralCanvas(canvasRef) {
     initParticles();
     draw();
 
-    window.addEventListener('resize', () => {
+    const handleResize = () => {
       resize();
       initParticles();
-    });
+    };
+    window.addEventListener('resize', handleResize);
 
-    return () => cancelAnimationFrame(animId);
+    return () => {
+      cancelAnimationFrame(animId);
+      window.removeEventListener('resize', handleResize);
+    };
   }, [canvasRef]);
 }
 
@@ -101,12 +104,7 @@ export default function Hero() {
       <div className="hero-glow hero-glow-1" />
       <div className="hero-glow hero-glow-2" />
 
-      <motion.div
-        className="hero-content container"
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, ease: [0.4, 0, 0.2, 1] }}
-      >
+      <div className="hero-content container hero-animate">
         <h1 className="hero-title">
           {t('hero.title').split(' ').map((word, i, arr) => {
             // Last 3 words get the gradient treatment
@@ -117,25 +115,15 @@ export default function Hero() {
           })}
         </h1>
 
-        <motion.p
-          className="hero-subtitle"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2, ease: [0.4, 0, 0.2, 1] }}
-        >
+        <p className="hero-subtitle hero-animate-delay-1">
           {t('hero.subtitle')}
-        </motion.p>
+        </p>
 
-        <motion.div
-          className="hero-ctas"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4, ease: [0.4, 0, 0.2, 1] }}
-        >
+        <div className="hero-ctas hero-animate-delay-2">
           <a href="#ecosystem" className="btn btn-primary">{t('hero.cta_primary')}</a>
           <a href="#contact" className="btn btn-secondary">{t('hero.cta_secondary')}</a>
-        </motion.div>
-      </motion.div>
+        </div>
+      </div>
     </section>
   );
 }

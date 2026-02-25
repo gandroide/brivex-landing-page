@@ -480,6 +480,30 @@ button {
     gap: 1rem;
 }
 
+/* Hero entrance animations — pure CSS, no JS dependency */
+@keyframes heroFadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-animate {
+    animation: heroFadeUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+.hero-animate-delay-1 {
+    animation: heroFadeUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.2s both;
+}
+
+.hero-animate-delay-2 {
+    animation: heroFadeUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.4s both;
+}
+
 /* ============================
    ECOSYSTEM
    ============================ */
