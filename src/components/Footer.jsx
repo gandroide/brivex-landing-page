@@ -60,8 +60,8 @@ export default function Footer() {
             <h4>{t('footer.links_title')}</h4>
             <ul>
               <li><a href="https://bioalert.brivex.ai" target="_blank" rel="noopener noreferrer">Bio-Alert</a></li>
-              <li><a href="https://axisops.brivex.ai" target="_blank" rel="noopener noreferrer">AXIS.ops</a></li>
-              <li><a href="https://aleris.brivex.ai" target="_blank" rel="noopener noreferrer">Aleris</a></li>
+              {/* <li><a href="https://axisops.brivex.ai" target="_blank" rel="noopener noreferrer">AXIS.ops</a></li> */}
+              {/* <li><a href="https://aleris.brivex.ai" target="_blank" rel="noopener noreferrer">Aleris</a></li> */}
               <li><a href="https://saas.brivex.ai" target="_blank" rel="noopener noreferrer">Brivex SaaS</a></li>
             </ul>
           </div>

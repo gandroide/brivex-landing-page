@@ -30,7 +30,10 @@ export default function Navbar() {
     <>
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`} role="navigation" aria-label="Main navigation">
         <div className="navbar-inner">
-          <a href="#" className="navbar-logo" aria-label="Brivex Home">BRIVEX</a>
+          <a href="#" className="navbar-logo" aria-label="Brivex Home" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <img src="/logo.svg" alt="Brivex Logo" width="32" height="32" />
+            BRIVEX
+          </a>
 
           <ul className="navbar-links">
             {navLinks.map((link) => (
